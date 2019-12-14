@@ -3,6 +3,7 @@
 # TODO column for total size of metadata
 # TODO skip shasum arg
 # TODO track time vs metadata time
+
 import applescript
 import binascii
 import csv
