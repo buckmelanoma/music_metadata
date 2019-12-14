@@ -18,6 +18,8 @@ csv_file = '/Users/username/Music/Metadata/music_metadata.csv'
 file_types = '.alac', '.aac', '.aiff', '.m4a', '.mp3', '.wav'
 music_dir = '/Users/username/Music/iTunes/iTunes Media/Music'
 cover_dir = '/Users/username/Music/Metadata/Covers/'
+
+
 def write_header():
     print('[mm] opening new csv file')
     with open(csv_file, 'w') as fp:
